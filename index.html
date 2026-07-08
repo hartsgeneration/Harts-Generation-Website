@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harts Generation — Live Sound, Recording &amp; RF Engineering</title>
+  <meta name="description" content="Harts Generation delivers world-class live sound engineering, multitrack recording, monitor and RF engineering, sound consultancy and pro audio gear hire for concerts, churches, festivals and corporate events." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" type="image/png" href="assets/logo-mark.png" />
+  <link rel="apple-touch-icon" href="assets/logo-mark.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Harts Generation — Live Sound, Recording & RF Engineering" />
+  <meta property="og:description" content="Precision live sound, recording and RF engineering for events that can't afford to sound anything less than perfect." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Harts Generation",
+    "description": "Live sound engineering, multitrack recording, RF engineering and pro audio gear hire.",
+    "image": "assets/og-cover.jpg",
+    "telephone": "+254791213920",
+    "email": "hartsgeneration@gmail.com",
+    "priceRange": "$$",
+    "areaServed": "Nationwide",
+    "sameAs": [
+      "https://www.instagram.com/harts_generation/",
+      "https://www.youtube.com/@HartsGeneration",
+      "https://www.tiktok.com/@harts_generation"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__logo">
+      <img class="preloader__lockup" src="assets/logo-lockup.png" alt="Harts Generation" />
+    </div>
+  </div>
+
+  <!-- ============ PROGRESS BAR ============ -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="logo" aria-label="Harts Generation home">
+        <img class="logo__img" src="assets/logo-mark.png" alt="Harts Generation" />
+        <span class="logo__text">Harts <b>Generation</b></span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Work</a>
+        <a href="#gear">Gear Hire</a>
+        <a href="#certs">Certs</a>
+        <a href="#contact" class="btn btn--sm btn--primary nav__cta">Book Now</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <!-- Drop a muted autoplay showreel here: put reel.mp4 in /assets and uncomment -->
+      <!-- <video class="hero__video" autoplay muted loop playsinline poster="assets/hero-poster.jpg"><source src="assets/reel.mp4" type="video/mp4"></video> -->
+      <div class="hero__stage" aria-hidden="true">
+        <div class="hero__photo"></div>
+        <span class="beam beam--1"></span>
+        <span class="beam beam--2"></span>
+        <span class="beam beam--3"></span>
+        <div class="hero__grid"></div>
+        <div class="hero__vignette"></div>
+      </div>
+
+      <div class="container hero__content">
+        <p class="hero__eyebrow reveal">Live Sound · Recording · RF Engineering</p>
+        <h1 class="hero__title">
+          <span class="reveal" style="--d:.05s">Sound that</span>
+          <span class="reveal" style="--d:.15s">commands the <em>room.</em></span>
+        </h1>
+        <p class="hero__lead reveal" style="--d:.3s">
+          From arena tours to Sunday services, we engineer audio that's felt as much as
+          heard — flawless mixes, rock-solid RF, and gear you can trust when there's no second take.
+        </p>
+        <div class="hero__actions reveal" style="--d:.45s">
+          <a href="#portfolio" class="btn btn--primary">View Portfolio <span class="btn__arrow">→</span></a>
+          <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+        </div>
+
+        <div class="hero__stats reveal" style="--d:.6s">
+          <div class="stat"><span class="stat__num" data-count="480">0</span><span class="stat__label">Events Engineered</span></div>
+          <div class="stat"><span class="stat__num" data-count="12">0</span><span class="stat__label">Years Behind the Desk</span></div>
+          <div class="stat"><span class="stat__num" data-count="60">0</span><span class="stat__label">Brands &amp; Artists</span></div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ MARQUEE / CLIENTS ============ -->
+    <section class="marquee" aria-label="Clients and collaborations">
+      <div class="marquee__track">
+        <!-- Repeated twice for seamless loop -->
+        <span>ARTISTS</span><i>◆</i><span>FESTIVALS</span><i>◆</i><span>CHURCHES</span><i>◆</i><span>CORPORATE</span><i>◆</i><span>TOURING</span><i>◆</i><span>BROADCAST</span><i>◆</i>
+        <span>ARTISTS</span><i>◆</i><span>FESTIVALS</span><i>◆</i><span>CHURCHES</span><i>◆</i><span>CORPORATE</span><i>◆</i><span>TOURING</span><i>◆</i><span>BROADCAST</span><i>◆</i>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <div class="about__photo">
+            <img src="assets/about.jpg" alt="Engineer at the mixing console during a live show" loading="lazy" />
+          </div>
+          <div class="about__badge">
+            <span class="about__badge-num">12+</span>
+            <span class="about__badge-txt">years<br>on the road</span>
+          </div>
+        </div>
+
+        <div class="about__body">
+          <p class="eyebrow reveal">About the company</p>
+          <h2 class="reveal">Obsessive about the details<br>you're never meant to notice.</h2>
+          <p class="reveal">
+            Harts Generation started with a simple belief: great sound should disappear. When it's right,
+            the audience forgets we're there — they just feel the moment. We bring over a decade of
+            front-of-house, monitors and RF experience to every gig, whether it's a stadium
+            headline slot or an intimate acoustic set.
+          </p>
+          <p class="reveal">
+            We treat every event like it's being recorded for release — because increasingly, it is.
+            Meticulous gain structure, clean RF coordination, and calm under pressure are non-negotiable.
+          </p>
+
+          <div class="about__mission reveal">
+            <span class="about__mission-mark">“</span>
+            <p>Our mission is to make world-class audio accessible to every stage — arming artists,
+            ministries and brands with sound that carries their message exactly as they intended.</p>
+          </div>
+
+          <div class="about__points reveal">
+            <div><strong>Calm under pressure</strong><span>Live means live. We plan for the failure that never happens.</span></div>
+            <div><strong>Release-ready</strong><span>Every mix treated like a master, every recording archived.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">What we do</p>
+          <h2>Services engineered<br>around your event.</h2>
+          <p class="section__lead">Book one, or hand us the whole audio production. Every service links
+            straight into a booking so you can lock us in fast.</p>
+        </div>
+
+        <div class="services__grid" id="servicesGrid">
+          <!-- cards injected by JS from a single source of truth -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>A running log of<br>rooms we've owned.</h2>
+          <p class="section__lead">Filter the projects — new events get added here as they happen.</p>
+        </div>
+
+        <div class="filters reveal" id="portfolioFilters" role="tablist" aria-label="Filter projects">
+          <button class="filter is-active" data-filter="all">All</button>
+          <button class="filter" data-filter="concert">Concerts</button>
+          <button class="filter" data-filter="church">Church</button>
+          <button class="filter" data-filter="corporate">Corporate</button>
+          <button class="filter" data-filter="festival">Festival</button>
+        </div>
+
+        <div class="portfolio__grid" id="portfolioGrid">
+          <!-- cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CLIENTS / LOGO WALL ============ -->
+    <section class="logos section" id="clients">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="eyebrow">Trusted by</p>
+          <h2>Brands &amp; stages we've<br>run sound for.</h2>
+        </div>
+        <div class="logos__wall reveal" id="logoWall">
+          <!-- placeholder wordmark tiles; swap for real client logos in /assets -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">On the ground</p>
+          <h2>From load-in<br>to last note.</h2>
+          <p class="section__lead">Tap any frame to open the lightbox.</p>
+        </div>
+      </div>
+      <div class="gallery__grid" id="galleryGrid">
+        <!-- tiles injected by JS -->
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section class="certs section" id="certs">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Credentials</p>
+          <h2>Certified, current,<br>and always learning.</h2>
+          <p class="section__lead">A living wall of training — updated as new courses are completed.</p>
+        </div>
+        <div class="certs__grid" id="certsGrid">
+          <!-- injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GEAR FOR HIRE ============ -->
+    <section class="gear section" id="gear">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Gear for hire</p>
+          <h2>Tour-grade kit,<br>ready to roll.</h2>
+          <p class="section__lead">Dry hire or fully crewed. Enquire for rates and availability on any item.</p>
+        </div>
+
+        <div class="filters reveal" id="gearFilters" role="tablist" aria-label="Filter gear">
+          <button class="filter is-active" data-filter="all">All</button>
+          <button class="filter" data-filter="mixers">Mixers</button>
+          <button class="filter" data-filter="speakers">Speakers</button>
+          <button class="filter" data-filter="mics">Mics</button>
+          <button class="filter" data-filter="rf">RF / IEM</button>
+        </div>
+
+        <div class="gear__grid" id="gearGrid">
+          <!-- injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="eyebrow">Kind words</p>
+          <h2>What clients say<br>after the encore.</h2>
+        </div>
+        <div class="testimonials__grid" id="testimonialsGrid">
+          <!-- injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq section" id="faq">
+      <div class="container faq__inner">
+        <div class="section__head reveal">
+          <p class="eyebrow">Good to know</p>
+          <h2>Frequently<br>asked questions.</h2>
+          <p class="section__lead">Still unsure? <a href="#contact">Drop us a line</a> — we reply fast.</p>
+        </div>
+        <div class="faq__list" id="faqList">
+          <!-- injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact section" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info reveal">
+          <p class="eyebrow">Let's talk</p>
+          <h2>Tell us about<br>your event.</h2>
+          <p class="contact__lead">Dates fill up fast, especially in festival season. Send the details
+            and we'll come back with availability and a quote.</p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__ico">📞</span>
+              <a href="tel:+254791213920">+254 791 213 920</a>
+              <em>Click to call</em>
+            </li>
+            <li>
+              <span class="contact__ico">✉️</span>
+              <a href="mailto:hartsgeneration@gmail.com">hartsgeneration@gmail.com</a>
+              <em>We reply within a day</em>
+            </li>
+            <li>
+              <span class="contact__ico">📍</span>
+              <span>Based nationwide · Willing to travel</span>
+              <em>Service area on request</em>
+            </li>
+          </ul>
+
+          <a href="assets/company-profile.pdf" class="btn btn--ghost btn--sm" download>
+            ⬇ Download company profile (PDF)
+          </a>
+
+          <div class="contact__socials">
+            <a href="https://www.instagram.com/harts_generation/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+            <a href="https://www.youtube.com/@HartsGeneration" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
+            <a href="https://www.tiktok.com/@harts_generation" target="_blank" rel="noopener" aria-label="TikTok">TT</a>
+          </div>
+        </div>
+
+        <form class="contact__form reveal" id="bookingForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="field field--half">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@email.com" required />
+          </div>
+          <div class="field field--half">
+            <label for="phone">Phone / WhatsApp</label>
+            <input id="phone" name="phone" type="tel" placeholder="+254 7XX XXX XXX" />
+          </div>
+          <div class="field field--half">
+            <label for="date">Event date</label>
+            <input id="date" name="date" type="date" />
+          </div>
+          <div class="field field--half">
+            <label for="type">Event type</label>
+            <select id="type" name="type">
+              <option value="">Select…</option>
+              <option>Concert / Tour</option>
+              <option>Church / Ministry</option>
+              <option>Corporate</option>
+              <option>Festival</option>
+              <option>Recording session</option>
+              <option>Gear hire only</option>
+            </select>
+          </div>
+          <div class="field field--half">
+            <label for="audience">Est. audience</label>
+            <input id="audience" name="audience" type="text" placeholder="e.g. 500" />
+          </div>
+          <div class="field field--half">
+            <label for="service">Service needed</label>
+            <select id="service" name="service">
+              <option value="">Select…</option>
+              <option>Live Sound Engineering</option>
+              <option>Multitrack Recording</option>
+              <option>Monitor Engineering</option>
+              <option>RF Engineering</option>
+              <option>Sound Consultancy</option>
+              <option>Full audio production</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Details</label>
+            <textarea id="message" name="message" rows="4" placeholder="Venue, run-of-show, anything we should know…"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Send enquiry <span class="btn__arrow">→</span></button>
+          <p class="contact__note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="logo logo--footer">
+          <img class="logo__img" src="assets/logo-mark.png" alt="Harts Generation" />
+          <span class="logo__text">Harts <b>Generation</b></span>
+        </a>
+        <p>Live sound, recording &amp; RF engineering for events that only get one take.</p>
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/harts_generation/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+          <a href="https://www.youtube.com/@HartsGeneration" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
+          <a href="https://www.tiktok.com/@harts_generation" target="_blank" rel="noopener" aria-label="TikTok">TT</a>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <div>
+          <h4>Explore</h4>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Work</a>
+          <a href="#gallery">Gallery</a>
+        </div>
+        <div>
+          <h4>Business</h4>
+          <a href="#gear">Gear Hire</a>
+          <a href="#certs">Certifications</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h4>Get in touch</h4>
+          <a href="tel:+254791213920">+254 791 213 920</a>
+          <a href="mailto:hartsgeneration@gmail.com">hartsgeneration@gmail.com</a>
+        </div>
+      </nav>
+    </div>
+    <div class="footer__bar container">
+      <span>© <span id="year"></span> Harts Generation. All rights reserved.</span>
+      <span>Engineered for the stage.</span>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLOAT ============ -->
+  <a href="https://wa.me/254791213920" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26" fill="currentColor" aria-hidden="true">
+      <path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.6 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.2-.4c-1-1.6-1.5-3.4-1.5-5.3 0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10zm5.5-7.5c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2s-.8 1-.9 1.1c-.2.2-.3.2-.6.1-1.8-.9-3-1.6-4.1-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.4z"/>
+    </svg>
+  </a>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">✕</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous">‹</button>
+    <figure class="lightbox__stage" id="lightboxStage"></figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
